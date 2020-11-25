@@ -11,9 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcec0d93-3400-4a23-8b1e-5fb5afdd2cc4" name="Default Changelist" comment="make headers for String class">
+    <list default="true" id="dcec0d93-3400-4a23-8b1e-5fb5afdd2cc4" name="Default Changelist" comment="realisation of String class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/String.h" beforeDir="false" afterPath="$PROJECT_DIR$/String.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +46,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -63,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606307301547</updated>
-      <workItem from="1606307303832" duration="4839000" />
+      <workItem from="1606307303832" duration="6446000" />
+      <workItem from="1606328785740" duration="5411000" />
     </task>
     <task id="LOCAL-00001" summary="make headers for String class">
       <created>1606314255169</created>
@@ -72,7 +70,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606314255170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="make operator + const , add operator =">
+      <created>1606317189421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606317189422</updated>
+    </task>
+    <task id="LOCAL-00003" summary="realisation of String class">
+      <created>1606317216885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606317216885</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,9 +92,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="make headers for String class" />
-    <option name="LAST_COMMIT_MESSAGE" value="make headers for String class" />
+    <MESSAGE value="make operator + const , add operator =" />
+    <MESSAGE value="realisation of String class" />
+    <option name="LAST_COMMIT_MESSAGE" value="realisation of String class" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1606317662516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606317662516" />
+    <state x="184" y="85" key="DiffContextDialog" timestamp="1606317169662">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606317169662" />
     <state x="838" y="417" key="Github.ShareDialog" timestamp="1606307436744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -91,5 +113,52 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="778" y="217" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606307455912" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1606334119078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606334119078" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1606334119078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606334119078" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1606334119078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606334119078" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1606334119078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606334119078" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1606334119510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606334119510" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1606334119510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606334119510" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1606334119510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606334119510" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1606334119510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606334119510" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606317171924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606317171924" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

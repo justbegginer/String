@@ -6,6 +6,8 @@
 #define STRING_STRING_H
 
 
+#include <ostream>
+
 class String {
 private:
     char *char_array;
@@ -16,9 +18,10 @@ public:
     String(const String& string);
     ~String();
     String operator+(const String &rhs) const;
-    String& operator+=(const String &rhs);
-    char& operator[](int index);
+    String operator+=(const String &rhs);
+    char& operator[](int index) const;
     String &String::operator=(const String &rhs);
+    friend std::ostream &operator<<(std::ostream &os, const String &string);
     int size()const;
 };
 
