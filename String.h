@@ -15,9 +15,10 @@ public:
     String(char *char_array , int length);
     String(const String& string);
     ~String();
+    String operator+(const String &rhs) const;
     String& operator+=(const String &rhs);
-    String operator+(const String &rhs);
-    char operator[](int index);
+    char& operator[](int index);
+    String &String::operator=(const String &rhs);
     int size()const;
 };
 
