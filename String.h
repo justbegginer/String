@@ -1,7 +1,7 @@
 //
 // Created by user.v2.0 on 25.11.2020.
 //
-
+#pragma once
 #ifndef STRING_STRING_H
 #define STRING_STRING_H
 

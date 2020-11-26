@@ -6,7 +6,8 @@
 #include <iostream>
 
 String::String() {
-    char_array = new char[0];
+    char_array = new char[1];
+    char_array['\0'];
     length = 0;
 }
 
@@ -48,7 +49,6 @@ String String::operator+(const String &rhs) const {
 
 String String::operator+=(const String &rhs) {
     return *(this) + rhs;
-
 }
 
 
